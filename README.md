@@ -1,50 +1,26 @@
-# Will Mather
+# Will
 
-**Marketing engineer. I deploy AI agents into working teams and measure whether they stick.**
+## Two apps I shipped
 
-Senior Director, Analytics & AI at a global marketing agency. I drove company-wide AI adoption to 95%+ (about 90% active weekly), trained 200+ employees and clients, and put 200+ production agents into client workflows that cut recurring manual processing by 75%.
+**[Parrot](https://parrot-site-two.vercel.app)** turns your voice into text on an Apple Silicon Mac, with a Windows preview. The audio stays on your computer, with no account and no subscription. A fork of [humanitas-labs/parrot](https://github.com/humanitas-labs/parrot).\
+[Get it](https://parrot-site-two.vercel.app) · [Code](https://github.com/willmather95/parrot)
 
-On my own time I run 26 Grok Bot seats and Cursor cloud agents on two live businesses. Every agent has one job, every number needs a source, and nothing merges until I approve that pull request at that exact commit.
+**[Afterglow](https://afterglow-site-three.vercel.app)** warms and dims your screen at night, on a schedule you set. Free for Apple Silicon Macs, with a Windows preview.\
+[Get it](https://afterglow-site-three.vercel.app) · [Code](https://github.com/willmather95/afterglow)
 
-## What I bring to a team adopting agents
+## What I do
 
-- **Adoption that holds.** Training aimed at judgment: when AI is the right tool, and whether a workflow pays for itself in business value, token cost, team capacity and the review it still needs.
-- **Readiness before rollout.** I interview senior leaders, score AI maturity by function, and turn the gaps into a ranked agent roadmap.
-- **Gates that scale.** Agents open draft PRs from a scoped prompt file, a fixed checklist runs on the preview, and a person says yes to the exact commit. [How it works](https://github.com/willmather95/agent-ops-showcase/blob/main/docs/architecture.md).
-- **Usage you can defend.** Weekly scorecards count shipped work with production receipts, errors caught vs. errors shipped, and usage-limit hits. Paid tools run under dollar caps set in code.
-- **Healthy accounts.** I grew one enterprise account from a single analytics supervisor to a multi-level delivery team. I rebuilt its 174-row weekly report into decision briefs for each stakeholder, and earned a 25% scope expansion at renewal.
+I'm a marketing engineer. I work in analytics and paid media, and I build my own tools for both.
 
-## Start here
+## Marketing tools
 
-| | |
-|---|---|
-| [**agent-ops-showcase**](https://github.com/willmather95/agent-ops-showcase) | How I deploy and govern an agent fleet: roles, handoff files, the ship gate, routines, and four case studies, including the time a bot skipped review |
-| [**seo-pack**](https://github.com/willmather95/seo-pack) | Seven SEO and AI-answer skills behind a weekly loop with receipts and an owner gate. Installs into Claude Code, Codex and Grok Bot |
-| [**conversion-tracking-agent**](https://github.com/willmather95/conversion-tracking-agent) | GTM audit skill, 14-check tag-health scanner, Meta CAPI and QA gates that prove each lead counts once before anything publishes |
-| [**marketing-warehouse**](https://github.com/willmather95/marketing-warehouse) | Search Console loaded into DuckDB on a schedule, so agents query one table instead of live APIs and pick each week's title rewrites |
-| [**outbound-verify**](https://github.com/willmather95/outbound-verify) | Find, verify, draft: a code-checked research gate for cold outbound. 49 candidates in, 30 verified, nothing sends without a yes |
-| [**world-class-charts**](https://github.com/willmather95/world-class-charts) | 18 React chart and KPI components with dark mode, theming and keyboard support, plus an agent skill that builds dashboards with them |
-| [**human-copy**](https://github.com/willmather95/human-copy) | A seven-pass filter that strips AI tells from writing before it ships |
-| [**afterglow**](https://github.com/willmather95/afterglow) | A free, open-source Mac and Windows app that warms and dims the screen at night |
+| Repo | What it does | Result |
+|---|---|---|
+| [conversion-tracking-agent](https://github.com/willmather95/conversion-tracking-agent) | Audits Google Tag Manager and checks that each lead is counted only once | On my own site: 9 of 9 live checks pass, 11 of 11 events match. [Try the free checker](https://mathermediasolutions.com/tag-health-checker). |
+| [seo-pack](https://github.com/willmather95/seo-pack) | A weekly SEO loop: one change per site per week | On my own 2,584-page site, average Google position improved from 20.5 to 14.4 (lower is better). The two 28-day windows overlap, so this is an early sign only. |
+| [landing-page-lab](https://github.com/willmather95/landing-page-lab) | Landing page tests that call a winner only when the stats agree | 116 code tests pass. Demo traffic is simulated. |
+| [ads-guardrail-agent](https://github.com/willmather95/ads-guardrail-agent) | Suggests Google and Meta bid and budget changes, and trims or blocks any that break hard caps | Simulated 14-day run: 0 cap breaches. All 46 changes could be undone cleanly. |
 
-Also: [agent-rules-restructure](https://github.com/willmather95/agent-rules-restructure) (one lean instruction root for Claude Code and Codex).
-
-## Built and run with agents
-
-- **[HSA Trackr](https://www.hsatrackr.com).** A consumer site and app for health savings accounts with about 2,600 mostly programmatic pages. A four-role agent team runs its SEO: one verified change a week, a curl receipt from production for each.
-- **[Mather Media Solutions](https://mathermediasolutions.com).** My growth and AI consultancy for owner-run businesses, with its own SEO and outbound seats.
-
-## How I work
-
-- Every number has a source and a date, or it doesn't ship.
-- One change at a time, measured, with a receipt from production.
-- Agents get one job and a written list of what they may not do.
-- Checks go in code wherever code can run them.
-
-## Toolbox
-
-**Agents:** Cursor cloud agents, Grok Bot, Claude Code, Codex, MCP servers · **Analytics:** GA4, Adobe Analytics, Tableau (certified), BigQuery, Looker Studio, PostHog, Search Console · **Code:** Python, TypeScript, React, DuckDB
-
-## Elsewhere
+Also here: [channel-loop](https://github.com/willmather95/channel-loop) (simulated: one guarded change a day, measured against untouched campaigns) · [human-copy](https://github.com/willmather95/human-copy) (strips AI tells from writing) · [world-class-charts](https://github.com/willmather95/world-class-charts) (React charts) · [agent-ops-showcase](https://github.com/willmather95/agent-ops-showcase) (how I run agent teams)
 
 [LinkedIn](https://www.linkedin.com/in/willmather) · Nashville, TN
